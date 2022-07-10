@@ -7,7 +7,7 @@ import (
 
 func main() {
 	router := gin.Default()
-	router.GET("/account", account.GetAccountByEmailAndPassword)
+	router.POST("/login", account.GetAccountByEmailAndPassword)
 	router.POST("/account", account.PostAccount)
 	//router.PUT("/account", account.PostAccount)
 	//router.DELETE("/account", account.PostAccount)
