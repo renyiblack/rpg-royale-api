@@ -7,7 +7,7 @@ import (
 )
 
 var accounts = []entities.Account{
-	{ID: 1, Name: "victor", Email: "victor@hotmail.com", Password: "123"},
+	{ID: 1, Name: "victor", Email: "victor", Password: "123"},
 }
 
 func GetAccountByEmailAndPassword(c *gin.Context) {
